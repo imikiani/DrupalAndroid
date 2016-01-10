@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/iman/AndroidStudioProjects/DrupalAndroid/For-Android-Studio/Candle/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Login">ورود</string>
+    <string name="add">افزودن</string>
+    <string name="add_article">افزودن مقاله</string>
+    <string name="app_name">Candle</string>
+    <string name="article_body">متن</string>
+    <string name="article_list">لیست مقالات</string>
+    <string name="article_title">عنوان</string>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="password">گذرواژه</string>
+    <string name="username">نام کاربری</string>
+</resources>

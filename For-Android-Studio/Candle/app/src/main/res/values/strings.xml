@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">Candle</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">گذرواژه</string>
+    <string name="Login">ورود</string>
+    <string name="article_list">لیست مقالات</string>
+    <string name="add_article">افزودن مقاله</string>
+    <string name="article_title">عنوان</string>
+    <string name="article_body">متن</string>
+    <string name="add">افزودن</string>
+
+</resources>

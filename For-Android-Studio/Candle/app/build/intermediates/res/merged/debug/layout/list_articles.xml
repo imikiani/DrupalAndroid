@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/tvArticleList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/article_list" />
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/lvArticles"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignRight="@+id/tvArticleList"
+        android:layout_below="@+id/tvArticleList"
+        android:layout_marginTop="15dp" android:background="#e29233">
+
+    </ListView>
+
+
+
+    <Button
+        android:id="@+id/btnAddArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/lvArticles"
+        android:layout_below="@+id/lvArticles"
+        android:layout_marginTop="22dp"
+        android:text="@string/add_article" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:id="@+id/btnFollow"
+        android:layout_below="@+id/btnAddArticle"
+        android:layout_alignRight="@+id/btnAddArticle" />
+
+</RelativeLayout><!-- From: file:/home/iman/AndroidStudioProjects/DrupalAndroid/For-Android-Studio/Candle/app/src/main/res/layout/list_articles.xml -->
